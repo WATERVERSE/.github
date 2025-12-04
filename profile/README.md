@@ -11,26 +11,30 @@ WATERVERSE is an **EU-funded project** focused on developing a **Water Data Mana
 Our repositories are categorized based on their purpose and functionality:
 
 ### **Data Models & Metadata**
-- **[WATERVERSE-DCAT-AP-Catalogue](https://github.com/WATERVERSE/WATERVERSE-DCAT-AP-Catalogue):** Metadata definitions for datasets, entity data, and data services based on the DCAT-AP standard and Smart Data Models.
+- **[WATERVERSE-DCAT-AP-Catalogue](https://github.com/WATERVERSE/WATERVERSE-DCAT-AP-Catalogue):** Metadata definitions for datasets, entity data, and data services used by the WATERVERSE pilots, based on the DCAT-AP standard and Smart Data Models.
 - **[sdm-versions-manager](https://github.com/WATERVERSE/sdm-versions-manager):** Manages versions of Smart Data Models, tracking current versions and GitHub repository hashes.
 
 ### **Data Conversion & Interoperability**
 - **[FIWARE-Data-Converters](https://github.com/WATERVERSE/FIWARE-Data-Converters):** Converts water datasets to NGSI-LD format using FIWARE Smart Data Models.
 - **[jsonld-to-rdf-converter](https://github.com/WATERVERSE/jsonld-to-rdf-converter):** Converts JSON-LD files to RDF format.
 - **[NGSI-LD_to_RDF-Turtle_Convertor](https://github.com/WATERVERSE/NGSI-LD_to_RDF-Turtle_Convertor):** Converts NGSI-LD data to RDF-Turtle format.
+- **[nifi-ngsild-ckan](https://github.com/WATERVERSE/nifi-ngsild-ckan):** Integrates NGSI-LD context brokers with CKAN platforms.
+- **[nifi-ngsild-fair-enhancer](https://github.com/WATERVERSE/nifi-ngsild-fair-enhancer):** Improves the metadata quality of Dataset and Distribution entities by calculating FAIR metrics.
 
-### **Data Quality & Performance**
+### **Data Quality & FAIRness**
 - **[Data-Model-FAIRness-Evaluator](https://github.com/WATERVERSE/Data-Model-FAIRness-Evaluator):** Automatically reports the FAIR compliance status of data models.
 - **[fair_visualization_metrics](https://github.com/WATERVERSE/fair_visualization_metrics):** Visualizes FAIR metrics for data models.
+- **[mqa-scoring](https://github.com/WATERVERSE/mqa-scoring):** Evaluates the FAIRness of data (forked from YourOpenDAta/mqa-scoring).
+- **[SDM.QualityTesting](https://github.com/WATERVERSE/SDM.QualityTesting):** Checks the quality of a data model included in the Smart Data Models program.
+
+### **Simulation, Performance & Analytics**
+- **[waterverse-flood-simulation-component](https://github.com/WATERVERSE/waterverse-flood-simulation-component):** Simulates flood scenarios for water management.
+- **[waterverse-sdg-component](https://github.com/WATERVERSE/waterverse-sdg-component):** Generates synthetic data.
 - **[waterverse-performance-monitor](https://github.com/WATERVERSE/waterverse-performance-monitor):** Monitors the performance of water data systems.
 
-### **Simulation & Analytics**
-- **[waterverse-flood-simulation-component](https://github.com/WATERVERSE/waterverse-flood-simulation-component):** Simulates flood scenarios for water management.
-- **[waterverse-sdg-component](https://github.com/WATERVERSE/waterverse-sdg-component):** Supports Sustainable Development Goals (SDGs) analytics for water data.
-
-### **Integration & Workflow**
-- **[nifi-ngsild-ckan](https://github.com/WATERVERSE/nifi-ngsild-ckan):** Integrates NGSI-LD data with CKAN platforms.
+### **Utilities & Tools**
 - **[sql-schema-generator](https://github.com/WATERVERSE/sql-schema-generator):** Generates PostgreSQL schemas for Smart Data Models.
+- **[SDM.Schema](https://github.com/WATERVERSE/SDM.Schema):** Retrieves the SDM JSON Schema of a data model based on the Entity Type data.
 
 ---
 
